@@ -7,7 +7,11 @@ public class FizzBuzz {
 		//1から50まで表示
 		//3の倍数でFizzを表示
 		for(int i = 1;i <= 50;i++) {
-			System.out.println(i);
+			if((i % 3) != 0) {
+				System.out.println(i);
+			}else{
+				System.out.println("Fizz");//3の倍数でFizz
+			}
 		}
 	}
 }
